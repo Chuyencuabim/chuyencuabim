@@ -16,18 +16,16 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
 
-        <link href="//db.onlinewebfonts.com/c/4fa98e8723666b5caedf8738d1cf4870?family=iCiel+Brush+Up" rel="stylesheet" type="text/css"/>
-
+       <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
 
         <style >
             .portfolio-item img{
                 object-fit: cover;width: 300px; height: 300px; border: 2px black solid; 
             }
             .title {
-                font-family: "iCiel Brush Up";
-                font-size: 40px;
+                font-family: "Roboto Condensed";   
                 color: white;
-                font-weight: 200;
+                font-weight: 700;
             }
             .para-content{
                 padding-top: 3%;
@@ -44,9 +42,21 @@
                 padding: 50px;
                 border: 2px solid black;
                 text-align: center;
-
             }
-            
+            .nav-item {
+                font-family: "Roboto Condensed";
+                font-size: 34px;
+            }
+            .phude {
+                padding-top: 3%;
+                font-size: 20px;
+                width: 50%; 
+                /*margin: 2% 20% 0%;*/
+                text-align: center;
+                margin: 0 auto;
+                text-justify: auto;
+                font-family: "Roboto Condensed";
+            }
 
         </style>
     </head>
@@ -55,14 +65,16 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav" style="background-color:  #f6abb6;">
             <div class="container">
-                <a class="navbar-brand" href="home.html"><div class="title"> CHUYỆN CỦA BIM </div> </a>
+                <a href="home.html" style="text-decoration: none;"><div class="title" style="font-size: 35px;"> CHUYỆN </div> <br/>
+                    <div class="title" style="font-size: 34px;" > CỦA BIM </div>  </a> 
+
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i class="fas fa-bars ms-1"></i>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
-                        <li class="nav-item"><a class="nav-link" href="story.html">Chuyện lạ</a></li>
+                <div class="collapse navbar-collapse" id="navbarResponsive" >
+                    <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0"  style="font-size: 45px;">
+                        <li class="nav-item"><a class="nav-link" href="story.html" >Chuyện lạ</a></li>
                         <li class="nav-item"><a class="nav-link" href="knowledge.html">Kiến thức</a></li>
                         <li class="nav-item"><a class="nav-link" href="confidential.html">Tâm sự</a></li>
                         <li class="nav-item"><a class="nav-link" href="">Podcast</a></li>
@@ -76,27 +88,20 @@
 
         <section class="page-section bg-light" id="portfolio">
             <div class="container">
-                <div class="text-center" style="margin-top:50px; ">
+                <div class="text-center" style="margin-top:100px; ">
                     <h4 class="text-uppercase title" style=" text-align: center; 
                         padding: 15px; 
-                        border: 6px solid #76696c; 
-                        border-radius: 50px;                      
+                        border: 2px solid black; 
+                        border-radius: 10px;                      
                         background-color: #f6abb6; 
                         color: white;
-                        width: 350px; 
+                        width: 18%; 
                         margin: auto; 
 
-
+                        font-size: 20px;
                         ">
                         Phòng trưng bày hình dáng âm hộ</h4>
-                    <p style="padding-top: 3%;
-                       font-size: 20px;
-                       width: 50%; 
-                       /*margin: 2% 20% 0%;*/
-                       text-align: center;
-                       margin: 0 auto;
-                       text-justify: auto;
-                       "> Sự đa dạng về hình dáng, màu sắc, kích thước 
+                    <p class="phude"> Sự đa dạng về hình dáng, màu sắc, kích thước 
                         chính là những điều đẹp đẽ và kỳ diệu nhất khi nói về âm hộ. Hãy tự tin tỏa sáng bản sắc riêng của chính bạn.
                     </p>
                 </div>
@@ -258,16 +263,16 @@
                 </section>
         -->
 
-          <footer class="footer py-4">
+        <footer class="footer py-4">
             <div class="container">
                 <!--<div class="row align-items-center">-->
-                    <a class="navbar-brand" href="home.html"> <div class="title"> TRỞ VỀ TRANG CHỦ </div> </a>
-<!--                    <div class="col-lg-4 my-3 my-lg-0">
-                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
-                    </div>-->
-                   
+                <a class="navbar-brand" href="home.html"> <div class="title"> TRỞ VỀ TRANG CHỦ </div> </a>
+                <!--                    <div class="col-lg-4 my-3 my-lg-0">
+                                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
+                                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
+                                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+                                    </div>-->
+
                 <!--</div>-->
             </div>
         </footer>
