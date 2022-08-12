@@ -16,46 +16,58 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
 
-       <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
 
         <style >
             .portfolio-item img{
                 object-fit: cover;width: 300px; height: 300px; border: 2px black solid; 
             }
-            .title {
-                font-family: "Roboto Condensed";   
-                color: white;
-                font-weight: 700;
-            }
+          
             .para-content{
-                padding-top: 3%;
+                /*padding-top: 3%;*/
                 font-size: 20px;
-                width: 70%; 
+                width: 100%; 
                 /*margin: 2% 20% 0%;*/
-                text-align: center;
+                text-align: justify;
                 margin: 0 auto;
                 text-justify: auto;
+                font-family: "Roboto Condensed";
             }
             .detail {
-                border-radius: 20px; 
+                border-radius: 10px; 
                 background-color:#f6abb6;
-                padding: 50px;
+                padding: 5%;
                 border: 2px solid black;
                 text-align: center;
+
             }
-            .nav-item {
-                font-family: "Roboto Condensed";
-                font-size: 34px;
-            }
+           
             .phude {
                 padding-top: 3%;
                 font-size: 20px;
-                width: 50%; 
+                width: 40%; 
                 /*margin: 2% 20% 0%;*/
                 text-align: center;
                 margin: 0 auto;
                 text-justify: auto;
                 font-family: "Roboto Condensed";
+                font-weight: 500;
+            }
+            .tieude {
+                 text-align: center; 
+                        padding: 1.5%; 
+                        border: 2px solid black; 
+                        border-radius: 10px;                      
+                        background-color: #f6abb6; 
+                        color: white;
+                        width: 20%; 
+                        margin: auto; 
+                        font-size: 1.5em;
+            }
+             .title {
+                font-family: "Roboto Condensed";   
+                color: white;
+                font-weight: 700;
             }
 
         </style>
@@ -74,12 +86,12 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive" >
                     <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0"  style="font-size: 45px;">
-                        <li class="nav-item"><a class="nav-link" href="story.html" >Chuyện lạ</a></li>
-                        <li class="nav-item"><a class="nav-link" href="knowledge.html">Kiến thức</a></li>
-                        <li class="nav-item"><a class="nav-link" href="confidential.html">Tâm sự</a></li>
-                        <li class="nav-item"><a class="nav-link" href="">Podcast</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#team">Về chúng tôi</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#contact">Ủng hộ</a></li>
+                        <li class="nav-item"><a class="nav-link" href="story.html" style="font-size: 1.3rem;" >Chuyện lạ</a></li>
+                        <li class="nav-item"><a class="nav-link" href="knowledge.html" style="font-size: 1.3rem;">Kiến thức</a></li>
+                        <li class="nav-item"><a class="nav-link" href="confidential.html" style="font-size: 1.3rem;">Tâm sự</a></li>
+                        <li class="nav-item"><a class="nav-link" href="" style="font-size: 1.3rem;" >Podcast</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#team" style="font-size: 1.3rem;">Về chúng tôi</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact" style="font-size: 1.3rem;">Ủng hộ</a></li>
                     </ul>
                 </div>
             </div>
@@ -88,21 +100,11 @@
 
         <section class="page-section bg-light" id="portfolio">
             <div class="container">
-                <div class="text-center" style="margin-top:100px; ">
-                    <h4 class="text-uppercase title" style=" text-align: center; 
-                        padding: 15px; 
-                        border: 2px solid black; 
-                        border-radius: 10px;                      
-                        background-color: #f6abb6; 
-                        color: white;
-                        width: 18%; 
-                        margin: auto; 
-
-                        font-size: 20px;
-                        ">
+                <div class="text-center" style="margin-top:8%; ">
+                    <h4 class="text-uppercase title tieude">
                         Phòng trưng bày hình dáng âm hộ</h4>
                     <p class="phude"> Sự đa dạng về hình dáng, màu sắc, kích thước 
-                        chính là những điều đẹp đẽ và kỳ diệu nhất khi nói về âm hộ. Hãy tự tin tỏa sáng bản sắc riêng của chính bạn.
+                        chính là những điều <span style="color: #ff9999; font-weight: 700; "> đẹp đẽ và kỳ diệu </span>nhất khi nói về âm hộ. Hãy tự tin tỏa sáng bản sắc riêng của chính bạn.
                     </p>
                 </div>
                 <div class="row" style="padding: 20px 100px; ">
@@ -289,11 +291,13 @@
                         <div class="col-md-6"  >
                             <img style="border-radius: 20px; border: 2px solid black;" class="img-fluid d-block mx-auto" src="assets/img/portfolio/moibevamo.png" alt="..." />
                         </div>
-                        <div class="col-md-6 detail" >
-                            <h2 class="text-uppercase title" style="margin-bottom: 10%;">MÔI  ÂM ĐẠO DỄ THẤY</h2>
-                            <p class="para-content" style=""> 
-                                Môi trong và môi ngoài thường có cùng kích thước. Môi trong lộ ra ngoài vì chúng nằm bên ngoài các nếp gấp bên ngoài; các nếp gấp bên ngoài nằm tự nhiên hoặc kéo về hai bên. 
-                            </p>
+                        <div class="col-md-6 " >
+                            <div class="detail" style="border: 10%; margin: 15%; ">
+                                <h2 class="text-uppercase title" >MÔI  ÂM ĐẠO DỄ THẤY</h2>
+                                <p class="para-content" style=""> 
+                                    Môi trong và môi ngoài thường có cùng kích thước. Môi trong lộ ra ngoài vì chúng nằm bên ngoài các nếp gấp bên ngoài; các nếp gấp bên ngoài nằm tự nhiên hoặc kéo về hai bên. 
+                                </p>
+                            </div>
                         </div>
 
 
@@ -314,10 +318,12 @@
                         <div class="col-md-6"  >
                             <img style="border-radius: 20px; border: 2px solid black;" class="img-fluid d-block mx-auto" src="assets/img/portfolio/moibevamo.png" alt="..." />
                         </div>
-                        <div class="col-md-6 detail" >
-                            <h2 class="text-uppercase title" style="margin-bottom: 10%;">MÔI  M HỘ BÉ VÀ MỞ </h2>
-                            <p class="para-content" style=""> Môi ngoài của bạn phẳng và áp lên xương mu, 
-                                nhưng hơi tách ra về hai bên, làm lộ rõ môi âm hộ bên trong của bạn.</p>
+                        <div class="col-md-6" >
+                            <div class="detail" style="border: 10%; margin: 15%; ">
+                                <h2 class="text-uppercase title">MÔI ÂM HỘ BÉ VÀ MỞ </h2>
+                                <p class="para-content" style=""> Môi ngoài của bạn phẳng và áp lên xương mu, 
+                                    nhưng hơi tách ra về hai bên, làm lộ rõ môi âm hộ bên trong của bạn.</p>
+                            </div>
                         </div>
 
 
@@ -339,12 +345,13 @@
                         <div class="col-md-6"  >
                             <img style="border-radius: 20px; border: 2px solid black;" class="img-fluid d-block mx-auto" src="assets/img/portfolio/moibevamo.png" alt="..." />
                         </div>
-                        <div class="col-md-6 detail" >
-                            <h2 class="text-uppercase title" style="margin-bottom: 10%;">MÔI LỚN CONG VÒNG</h2>
-                            <p class="para-content" style=""> Đôi môi bên ngoài của bạn có một đường cong tròn gặp nhau ở phần cuối. 
-                                Khi điều này xảy ra, nó thường để hở môi âm đạo bên trong. Chúng có thể nhô ra hoặc không nhô ra bên dưới âm hộ của bạn, đặc biệt là chúng có hình dạng như chiếc vòng móng ngựa.
-
-                            </p>
+                        <div class="col-md-6" >
+                            <div class="detail" style="border: 10%; margin: 15%; ">
+                                <h2 class="text-uppercase title" >MÔI LỚN CONG VÒNG</h2>
+                                <p class="para-content" style=""> Đôi môi bên ngoài của bạn có một đường cong tròn gặp nhau ở phần cuối. 
+                                    Khi điều này xảy ra, nó thường để hở môi âm đạo bên trong. Chúng có thể nhô ra hoặc không nhô ra bên dưới âm hộ của bạn, đặc biệt là chúng có hình dạng như chiếc vòng móng ngựa.
+                                </p>
+                            </div>
                         </div>
 
 
@@ -365,10 +372,12 @@
                         <div class="col-md-6"  >
                             <img style="border-radius: 20px; border: 2px solid black;" class="img-fluid d-block mx-auto" src="assets/img/portfolio/moibevamo.png" alt="..." />
                         </div>
-                        <div class="col-md-6 detail" >
-                            <h2 class="text-uppercase title" style="margin-bottom: 10%;">MÔI LỚN LỦNG LẲNG</h2>
-                            <p class="para-content" style=""> Đây là một dạng của môi ngoài nổi bật. Cấu trúc da thường mỏng và lỏng lẻo cũng như các bên thường khá rộng. Các nếp gấp có thể lộ rõ từ quần lót của bạn. 
-                                Điều này có thể giúp môi trong của bạn lộ ra nhiều hơn một chút.</p>
+                        <div class="col-md-6 " >
+                            <div class="detail" style="border: 10%; margin: 15%; ">
+                                <h2 class="text-uppercase title" >MÔI LỚN LỦNG LẲNG</h2>
+                                <p class="para-content" style=""> Đây là một dạng của môi ngoài nổi bật. Cấu trúc da thường mỏng và lỏng lẻo cũng như các bên thường khá rộng. Các nếp gấp có thể lộ rõ từ quần lót của bạn. 
+                                    Điều này có thể giúp môi trong của bạn lộ ra nhiều hơn một chút.</p>
+                            </div>
                         </div>
 
 
@@ -389,10 +398,12 @@
                         <div class="col-md-6"  >
                             <img style="border-radius: 20px; border: 2px solid black;" class="img-fluid d-block mx-auto" src="assets/img/portfolio/moibevamo.png" alt="..." />
                         </div>
-                        <div class="col-md-6 detail" >
-                            <h2 class="text-uppercase title" style="margin-bottom: 10%;">MÔI LỚN NỔI BẬT</h2>
-                            <p class="para-content" style=""> Môi lớn nổi bật thường nằm thấp hơn nhiều trên âm hộ của bạn. Cấu trúc da của môi lớn có thể dày và sưng húp hoặc mỏng và hơi lỏng lẻo - hoặc ở giữa hai trạng thái trên.
-                            </p>
+                        <div class="col-md-6" >
+                            <div class="detail" style="border: 10%; margin: 15%; ">
+                                <h2 class="text-uppercase title" >MÔI LỚN NỔI BẬT</h2>
+                                <p class="para-content" style=""> Môi lớn nổi bật thường nằm thấp hơn nhiều trên âm hộ của bạn. Cấu trúc da của môi lớn có thể dày và sưng húp hoặc mỏng và hơi lỏng lẻo - hoặc ở giữa hai trạng thái trên.
+                                </p>
+                            </div>
                         </div>
 
 
@@ -413,10 +424,12 @@
                         <div class="col-md-6"  >
                             <img style="border-radius: 20px; border: 2px solid black;" class="img-fluid d-block mx-auto" src="assets/img/portfolio/moibevamo.png" alt="..." />
                         </div>
-                        <div class="col-md-6 detail" >
-                            <h2 class="text-uppercase title" style="margin-bottom: 10%;">MÔI NHỎ VÀ KÍN</h2>
-                            <p class="para-content" style=""> Trong trường hợp này, môi ngoài có thể che phủ hoàn toàn môi trong của bạn. Mặc dù loại âm hộ này thường thấy trong các sản phẩm giải trí dành cho người lớn, nhưng nhìn chung nó thực sự là loại âm hộ ít phổ biến nhất.
-                            </p>
+                        <div class="col-md-6 " >
+                            <div class="detail" style="border: 10%; margin: 15%; ">
+                                <h2 class="text-uppercase title" >MÔI NHỎ VÀ KÍN</h2>
+                                <p class="para-content" style=""> Trong trường hợp này, môi ngoài có thể che phủ hoàn toàn môi trong của bạn. Mặc dù loại âm hộ này thường thấy trong các sản phẩm giải trí dành cho người lớn, nhưng nhìn chung nó thực sự là loại âm hộ ít phổ biến nhất.
+                                </p>
+                            </div>
                         </div>
 
 
@@ -438,12 +451,14 @@
                         <div class="col-md-6"  >
                             <img style="border-radius: 20px; border: 2px solid black;" class="img-fluid d-block mx-auto" src="assets/img/portfolio/moibevamo.png" alt="..." />
                         </div>
-                        <div class="col-md-6 detail" >
-                            <h2 class="text-uppercase title" style="margin-bottom: 10%;">MÔI TRONG KHÔNG 
-                                ĐỐI XỨNG
-                            </h2>
-                            <p class="para-content" style=""> Ngay cả khi môi lớn đối xứng, thì môi nhỏ có thể không đối xứng. "Đôi khi các phần khác nhau của môi âm hộ có thể có kích thước khác nhau, và điều đó không sao cả".
-                            </p>
+                        <div class="col-md-6" >
+                            <div class="detail" style="border: 10%; margin: 15%; ">
+                                <h2 class="text-uppercase title" >MÔI TRONG KHÔNG 
+                                    ĐỐI XỨNG
+                                </h2>
+                                <p class="para-content" style=""> Ngay cả khi môi lớn đối xứng, thì môi nhỏ có thể không đối xứng. "Đôi khi các phần khác nhau của môi âm hộ có thể có kích thước khác nhau, và điều đó không sao cả".
+                                </p>
+                            </div>
                         </div>
 
 
@@ -464,11 +479,14 @@
                         <div class="col-md-6"  >
                             <img style="border-radius: 20px; border: 2px solid black;" class="img-fluid d-block mx-auto" src="assets/img/portfolio/moibevamo.png" alt="..." />
                         </div>
-                        <div class="col-md-6 detail" >
-                            <h2 class="text-uppercase title" style="margin-bottom: 10%;">MÔI TRONG LỦNG LẲNG
-                            </h2>
-                            <p class="para-content" style=""> Đây là một dạng của môi trong nổi bật. Chúng có thể lủng lẳng khoảng 2cm (hoặc hơn!) lộ ra ngoài môi lớn của bạn. Chúng thậm chí có thể lộ ra bên ngoài quần lót của bạn.
-                            </p>
+                        <div class="col-md-6" >
+                            <div class="detail" style="border: 10%; margin: 15%; ">
+                                <h2 class="text-uppercase title">MÔI TRONG LỦNG LẲNG
+                                </h2>
+                                <p class="para-content" style=""> Đây là một dạng của môi trong nổi bật. Chúng có thể lủng lẳng khoảng 2cm (hoặc hơn!) lộ ra ngoài môi lớn của bạn. Chúng thậm chí có thể lộ ra bên ngoài quần lót của bạn.
+                                </p>
+                            </div>
+
                         </div>
 
 
@@ -489,10 +507,12 @@
                         <div class="col-md-6"  >
                             <img style="border-radius: 20px; border: 2px solid black;" class="img-fluid d-block mx-auto" src="assets/img/portfolio/moibevamo.png" alt="..." />
                         </div>
-                        <div class="col-md-6 detail" >
-                            <h2 class="text-uppercase title" style="margin-bottom: 10%;">MÔI TRONG NỔI BẬT</h2>
-                            <p class="para-content" style=""> Thông thường, môi trong sẽ dài hơn và nhô ra khỏi môi lớn. Sự khác biệt về độ dài này có thể nhỏ hơn, với môi trong chỉ vừa đủ ló ra ngoài, hoặc rõ ràng hơn.
-                            </p>
+                        <div class="col-md-6" >
+                            <div class="detail" style="border: 10%; margin: 15%; ">
+                                <h2 class="text-uppercase title">MÔI TRONG NỔI BẬT</h2>
+                                <p class="para-content" style=""> Thông thường, môi trong sẽ dài hơn và nhô ra khỏi môi lớn. Sự khác biệt về độ dài này có thể nhỏ hơn, với môi trong chỉ vừa đủ ló ra ngoài, hoặc rõ ràng hơn.
+                                </p>
+                            </div>
                         </div>
 
 
