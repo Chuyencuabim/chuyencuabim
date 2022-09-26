@@ -20,86 +20,137 @@ and open the template in the editor.
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
 
-        <link href="//db.onlinewebfonts.com/c/4fa98e8723666b5caedf8738d1cf4870?family=iCiel+Brush+Up" rel="stylesheet" type="text/css"/>
-
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap" rel="stylesheet">        
         <style> 
             .story-content {
 
-                color: #ce4d60;
-                padding-top: 2rem; 
-                padding-left: 10rem;
-                border-bottom: 2px solid #76696c; 
+                background-color: white;
+/*                padding-top: 2rem; 
+                padding-left: 10rem;*/
+/*                border-bottom: 2px solid #76696c; 
                 border-top-right-radius: 3rem;
-                border-bottom-right-radius:3rem; 
+                border-bottom-right-radius:3rem; */
                 border-top: 2px solid #76696c;
                 border-right: 2px solid #76696c ;
+                border-bottom: 2px solid #76696c ;
+
+                /*border: 2px solid black;*/ 
+                border-top-right-radius: 2.5em ;
+                border-bottom-right-radius: 2.5em;
+                color: #ce4d60;
+            }
 
 
+            .story-pic {
+                /*                width: 500px; 
+                                height: 300px; 
+                                border-radius:30px; 
+                                object-fit: cover; 
+                                border: 2px solid black;*/
+                width: 100%; height: 100%; 
+                border-top-left-radius: 2.5em ;
+                border-bottom-left-radius: 2.5em ; 
+                border: 2px solid black;
+
+            }
+
+            .para {
+                font-size: 1.5rem;
+                font-family: "Roboto Condensed";
+                padding: 0rem 2rem;
+            }
+            .story-content h1 {              
+                font-family: "Roboto Condensed";  
+                padding: 2rem;
+            }
+            .phude {
+                padding-top: 3%;
+                font-size: 1.6em;
+                width: 40%; 
+                /*margin: 2% 20% 0%;*/
+                text-align: center;
+                margin: 0 auto;
+                text-justify: auto;
+                font-family: "Roboto Condensed";
+                font-weight: 500;
+            }
+            .tieude {
+                text-align: center; 
+                padding: 1.5%; 
+                border: 2px solid black; 
+                border-radius: 10px;                      
+                background-color: #f6abb6; 
+                color: white;
+                width: 20%; 
+                margin: auto; 
+                font-size: 1.5em;
+                font-family: "Roboto Condensed";   
+                font-weight: 700;
             }
             .title {
-                font-family: "iCiel Brush Up";
-                font-size: 40px;
+                font-family: "Roboto Condensed";   
                 color: white;
-                font-weight: 200;
+                font-weight: 700;
             }
-            
-            .story-pic {
-                width: 500px; 
-                height: 300px; 
-                border-radius:30px; 
-                object-fit: cover; 
-                border: 2px solid black;
-            }
+<<<<<<< HEAD
             
             p {
                 font-size: 20px;
             }
             
+=======
+
+
+>>>>>>> e6e269995200187e19167c0c13eb25691fa5b40f
         </style>
     </head>
     <body id="page-top">
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav" style="background-color:  #f6abb6;">
             <div class="container">
-                <a class="navbar-brand" href="home.html"> <div class="title"> CHUYỆN CỦA BIM </div> </a>
+                <a href="home.html" style="text-decoration: none;"><div class="title" style="font-size: 35px;"> CHUYỆN </div> <br/>
+                    <div class="title" style="font-size: 34px;" > CỦA BIM </div>  </a> 
+
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i class="fas fa-bars ms-1"></i>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
-                        <li class="nav-item"><a class="nav-link" href="story.html">Chuyện lạ</a></li>
-                        <li class="nav-item"><a class="nav-link" href="knowledge.html">Kiến thức</a></li>
-                        <li class="nav-item"><a class="nav-link" href="confidential.html">Tâm sự</a></li>
-                        <li class="nav-item"><a class="nav-link" href="">Podcast</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#team">Về chúng tôi</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#contact">Ủng hộ</a></li>
+                <div class="collapse navbar-collapse" id="navbarResponsive" >
+                    <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0"  style="font-size: 45px;">
+                        <li class="nav-item"><a class="nav-link" href="story.html" style="font-size: 1.3rem;" >Chuyện lạ</a></li>
+                        <li class="nav-item"><a class="nav-link" href="knowledge.html" style="font-size: 1.3rem;">Kiến thức</a></li>
+                        <li class="nav-item"><a class="nav-link" href="confidential.html" style="font-size: 1.3rem;">Tâm sự</a></li>
+                        <li class="nav-item"><a class="nav-link" href="" style="font-size: 1.3rem;" >Podcast</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#team" style="font-size: 1.3rem;">Về chúng tôi</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact" style="font-size: 1.3rem;">Ủng hộ</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
         <section>
             <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase title" style=" text-align: center; 
-                        padding: 15px; 
-                        border: 6px solid #76696c; 
-                        border-radius: 50px;                     
-                        background-color: #f6abb6; 
-                        color: white;
-                        width: 350px; 
-                        margin: auto; 
-                        ">
+                <div class="text-center" style="margin-top:5%; ">
+                    <h2 class="section-heading text-uppercase title tieude ">
                         Chuyện lạ</h2>
-                    <h5 class="section-subheading text-muted" style="margin-top: 30px;">                
+                    <h5 class="phude" >                
                         Những ẩn dụ, mẫu rập khuôn, định kiến "lạ lùng" được áp đặt lên bộ phận sinh dục nữ </h5>
                 </div>
+<<<<<<< HEAD
                 <div class="row" style="margin-left: 40px;margin-top: 40px; ">
                     <div class="col-lg-4 col-sm-6 mb-4" >
                         <img class="story-pic" src="assets/img/strange/st1.png" alt="..." />
                     </div>
                     <div class="col-lg-8 col-sm-6 mb-4 story-content" >
                         <h3> VAGINA DENTATA </h3>
+=======
+               
+                <div class="row" style="margin: 4rem; ">
+                    <div class="col-lg-5 col-sm-6 mb-4" >
+                        <img class="story-pic" src="assets/img/strange/st1.png" alt="..." />
+                    </div>
+                    <div class="col-lg-7 col-sm-6 mb-4 story-content" >
+                        <h1> VAGINA DENTATA </h1>
+>>>>>>> e6e269995200187e19167c0c13eb25691fa5b40f
                         <p class="para">
                             Thần thoại về quỷ quái âm đạo có răng ngụ ý cho nỗi sợ hãi bị thiến của đàn ông khi quan hệ tình dục.
                         </p>
@@ -107,27 +158,37 @@ and open the template in the editor.
 
                 </div>
 
+<<<<<<< HEAD
                 <div class="row" style="margin-left: 40px;margin-top: 100px; ">
                     <div class="col-lg-4 col-sm-6 mb-4" >
+=======
+                <div class="row" style="margin: 4rem; ">
+                    <div class="col-lg-5 col-sm-6 mb-4" >
+>>>>>>> e6e269995200187e19167c0c13eb25691fa5b40f
                         <img class="story-pic" src="assets/img/strange/st2.png" alt="..." />
                     </div>
-                    <div class="col-lg-8 col-sm-6 mb-4 story-content" >
-                        <h3> THE CURSE: TAI ÁCH
-                        </h3>
-                        <p>
+                    <div class="col-lg-7 col-sm-6 mb-4 story-content" >
+                        <h1> THE CURSE: TAI ÁCH
+                        </h1>
+                        <p class="para">
                             Quan niệm cho rằng chu kỳ kinh nguyệt của phụ nữ là "tai ách" - đem lại vận rủi, hỗn loạn, và sự tàn nhẫn.
                         </p>
                     </div>
 
                 </div>
+<<<<<<< HEAD
                 <div class="row" style="margin-left: 40px;margin-top: 100px; ">
                     <div class="col-lg-4 col-sm-6 mb-4" >
+=======
+                <div class="row" style="margin: 4rem; ">
+                    <div class="col-lg-5 col-sm-6 mb-4" >
+>>>>>>> e6e269995200187e19167c0c13eb25691fa5b40f
                         <img class="story-pic" src="assets/img/strange/st3.png" alt="..." />
                     </div>
-                    <div class="col-lg-8 col-sm-6 mb-4 story-content" >
-                        <h3> THE NEST: CÁI TỔ
-                        </h3>
-                        <p>
+                    <div class="col-lg-7 col-sm-6 mb-4 story-content" >
+                        <h1> THE NEST: CÁI TỔ
+                        </h1>
+                        <p class="para">
                             Tử cung được đàn ông ví von như là một cái tổ, là nơi nuôi dưỡng sản phẩm do họ sáng tạo ra - thai nhi.
                         </p>
                     </div>
@@ -137,25 +198,23 @@ and open the template in the editor.
         </section>
 
 
-
+        <
 
         <!-- Footer-->
         <footer class="footer py-4">
             <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-4 text-lg-start">Copyright &copy; Your Website 2022</div>
-                    <div class="col-lg-4 my-3 my-lg-0">
-                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
-                    </div>
-                    <div class="col-lg-4 text-lg-end">
-                        <a class="link-dark text-decoration-none me-3" href="#!">Privacy Policy</a>
-                        <a class="link-dark text-decoration-none" href="#!">Terms of Use</a>
-                    </div>
-                </div>
+                <!--<div class="row align-items-center">-->
+                <a class="navbar-brand" href="home.html"> <div class="title"> TRỞ VỀ TRANG CHỦ </div> </a>
+                <!--                    <div class="col-lg-4 my-3 my-lg-0">
+                                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
+                                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
+                                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+                                    </div>-->
+
+                <!--</div>-->
             </div>
         </footer>
+
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->

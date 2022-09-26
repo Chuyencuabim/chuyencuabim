@@ -10,19 +10,19 @@ and open the template in the editor.
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Chuyện Của Bim</title>
-
-        <link href="//db.onlinewebfonts.com/c/4fa98e8723666b5caedf8738d1cf4870?family=iCiel+Brush+Up" rel="stylesheet" type="text/css"/>
+         <link href="css/styles.css" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap" rel="stylesheet">
 
         <style>
             body{
-                position: absolute;
+/*                position: absolute;
                 top: 20%;
                 left: 30%;
                 width: 1000px;
                 height: 2.4em;
                 margin-top: -3.7em;
                 margin-left: -180px;
-                text-align: center;
+                text-align: center;*/
                 background-color: #eee3e7;
             }
             input[type=submit]{
@@ -64,37 +64,90 @@ and open the template in the editor.
                 font-weight: 700;
                 src: local('Open Sans Bold'), local('OpenSans-Bold'), url(https://themes.googleusercontent.com/static/fonts/opensans/v8/k3k702ZOKiLJc3WVjuplzHhCUOGz7vYGh680lGh-uXM.woff) format('woff');
             }
-            div {
+            .tieude {
                 text-align: center; 
-                padding: 20px; 
-                border: 6px solid #76696c; 
-                border-radius: 70px;
+                padding: 15px 22px; 
+                border: 1px solid #76696c; 
+                border-radius: 25px;
                 font-size: 1.5em;  
                 background-color: #000000; 
                 color: #debec6;
-                width: 600px; 
-                margin: auto; 
-                margin-bottom: 30px;
+                width: 48%; 
+                margin:   auto;
+                margin-top: 10%;
+                font-family: "Roboto Condensed";
+                text-decoration: none;
+                text-align: center;
+                font-weight: 700;
             }
             .big-title {
                 text-align: center; 
-                font-size: 5em;
+                font-size: 6em;
                 font-weight: bold; 
                 color: #ce4d60;         
-                text-transform: uppercase;
-                font-family: "iCiel Brush Up";
+                /*text-transform: uppercase;*/
+                font-family: "Roboto Condensed";
+                margin-top: 12%;
+                font-weight: 700;
+       
             }
+            .phude {
+                text-align: center; 
+                 padding: 15px 22px; 
+                border: 3px solid black; 
+                border-radius: 15px;
+                font-size: 1.5em;  
+                background-color: #f6abb6; 
+                color: white;
+                width: 40%; 
+                margin: auto; 
+                margin-bottom: 30px;
+                font-family: "Roboto Condensed";
+                text-decoration: none;
+                font-weight: 700;
+                margin-top: 10%;
+            }
+            .contain {
+                /*                display: flex;
+                                justify-content: space-between;*/
+            }
+            .pic {
+                width: 100%;
+                height: 100%;
+            }
+            .content-index {
+                width: 100%;
+            }
+            
 
         </style>
     </head>
     <body>
-        <h1 class="big-title">CHUYỆN CỦA BIM</h1>
-        <div>
-            <span style="color: red">CẢNH BÁO NỘI DUNG:</span> Trong bộ sưu tập này bao gồm hình ảnh bộ phận sinh dục nữ. Hãy cân nhắc cẩn thận trước khi truy cập. 
+        <div class="container-fluid">
+        <div class="row" style="padding: 0;border: 0;">
+                <div class="col-sm-5 mb-6" >
+                    <img class="pic" src="assets/img/index.png" alt="..." />
+                </div>
+                <div class="col-sm-7 mb-6">
+                    <h1 class="big-title">Chuyện của Bim</h1>
+                    <div class="tieude">
+                        <span >CẢNH BÁO NỘI DUNG:</span> 
+                        Trong bộ sưu tập này bao gồm hình ảnh nhạy cảm. Hãy cân nhắc cẩn thận trước khi truy cập. 
+                    </div>
+                    <a style="text-decoration: none;" href="home.html" ><div class="phude" > NHẤN VÀO ĐÂY ĐỂ CÙNG BẮT ĐẦU HÀNH TRÌNH KHÁM PHÁ </div></a>
+                </div>
+            </div>
         </div>
-
-        <a href="home.html" ><input value="Start!" type="submit"/></a>
-
+        
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- * *                               SB Forms JS                               * *-->
+        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
     </body>
 </html>
 
