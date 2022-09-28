@@ -68,30 +68,48 @@
                 color: white;
                 font-weight: 700;
             }
-            
-            
-            .logo {
-                font-size: 35px;
+            svg {
+                display: block;
             }
-            .logolow {
-                font-size: 34px;
+            a.portfolio-link{
+                text-align: center;
             }
-            
-            @media screen and (max-width: 800px)  {
+            .portfolio-hover{
+                object-fit: cover;
+                width: 300px;
+                height: 300px;
+                border-radius: 20px;
+                position: absolute;
+                margin-left: auto;
+                margin-right: auto;
+                left: 0;
+                right: 0;
+                text-align: center;
+            }
+            .lis{
+                font-size: 1.3rem;
+                font-family: "Roboto Condensed";   
+            }
+             @media screen and (max-width: 800px)  {
                 .logo {
-                font-size: 1rem;
+                font-size: 1.5rem;
             }
             .logolow {
-                font-size: 0.9rem;
+                font-size: 1.4rem;
             }
             .tieude {
-                font-size: 0.8rem;
+                font-size: 1.2rem;
+                width: 40%;
+               
             }
-            .phude {
-                font-size: 0.6rem;
+           .phude {
+                font-size: 1em;
+                text-align: justify;
+            }
+            .portfolio-item a{
+                /*margin-left: -50px;*/
             }
            }
-
         </style>
     </head>
 
@@ -100,19 +118,19 @@
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav" style="background-color:  #f6abb6;">
 
             <div class="container">
-                <a href="home.html" style="text-decoration: none;"><div class="title logo" > CHUYỆN </div> <br/>
-                    <div class="title logolow "  > CỦA BIM </div>  </a> 
+                <a href="home.html" style="text-decoration: none;"><div class="title logo"> CHUYỆN </div> <br/>
+                    <div class="title logolow" > CỦA BIM </div>  </a> 
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i class="fas fa-bars ms-1"></i>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive" >
-                    <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0"  >
-                        <li class="nav-item"><a class="nav-link" href="story.html" style="font-size: 1.3rem;" >Chuyện lạ</a></li>
-                        <li class="nav-item"><a class="nav-link" href="knowledge.html" style="font-size: 1.3rem;">Kiến thức</a></li>
-                        <li class="nav-item"><a class="nav-link" href="confidential.html" style="font-size: 1.3rem;">Tâm sự</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#team" style="font-size: 1.3rem;">Về chúng tôi</a></li>
+                    <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0 lis"  >
+                        <li class="nav-item lis"><a class="nav-link lis" href="story.html" >Chuyện lạ</a></li>
+                        <li class="nav-item"><a class="nav-link lis" href="knowledge.html" >Kiến thức</a></li>
+                        <li class="nav-item"><a class="nav-link lis" href="confidential.html" >Tâm sự</a></li>
+                        <li class="nav-item"><a class="nav-link lis" href="#team" >Về chúng tôi</a></li>
 
                     </ul>
                 </div>
@@ -130,7 +148,7 @@
                         chính là những điều <span style="color: #ff9999; font-weight: 700; "> đẹp đẽ và kỳ diệu </span>nhất khi nói về âm hộ. Hãy tự tin tỏa sáng bản sắc riêng của chính bạn.
                     </p>
                 </div>
-                <div class="row" style="padding: 20px 100px; ">
+                <div class="row">
                     <div class="col-lg-4 col-sm-6 mb-4" >
                         <!-- Portfolio item 1-->
                         <div class="portfolio-item">
@@ -138,7 +156,7 @@
                                 <div class="portfolio-hover" style="width: 300px; height: 300px; border-radius:20px;">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img  src="assets/img/portfolio/moidethay.png" alt="..." />
+                                <img style="object-fit: cover;width: 300px; height: 300px; border: 2px black solid; " src="assets/img/portfolio/moidethay.png" alt="..." />
                             </a>
                             <!--                            <div class="portfolio-caption">
                                                             <div class="portfolio-caption-heading">Threads</div>
@@ -153,7 +171,7 @@
                                 <div class="portfolio-hover" style="width: 300px; height: 300px; border-radius:20px;">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img  src="assets/img/portfolio/moibevamo.png" alt="..." />
+                                <img style="object-fit: cover;width: 300px; height: 300px;" src="assets/img/portfolio/moibevamo.png" alt="..." />
                             </a>
 
                         </div>
@@ -165,7 +183,7 @@
                                 <div class="portfolio-hover" style="width: 300px; height: 300px; border-radius:20px;">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img  src="assets/img/portfolio/moiloncongvanh.png" alt="..." />
+                                <img style="object-fit: cover;width: 300px; height: 300px;" src="assets/img/portfolio/moiloncongvanh.png" alt="..." />
                             </a>
 
                         </div>
@@ -177,7 +195,7 @@
                                 <div class="portfolio-hover" style="width: 300px; height: 300px; border-radius:20px;">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img  src="assets/img/portfolio/moilonlunglang.png" alt="..." />
+                                <img style="object-fit: cover;width: 300px; height: 300px;" src="assets/img/portfolio/moilonlunglang.png" alt="..." />
                             </a>
 
                         </div>
@@ -189,7 +207,7 @@
                                 <div class="portfolio-hover" style="width: 300px; height: 300px; border-radius:20px;">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img  src="assets/img/portfolio/moilonnoibat.png" alt="..." />
+                                <img style="object-fit: cover;width: 300px; height: 300px;" src="assets/img/portfolio/moilonnoibat.png" alt="..." />
                             </a>
 
                         </div>
@@ -201,7 +219,7 @@
                                 <div class="portfolio-hover" style="width: 300px; height: 300px; border-radius:20px;">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img  src="assets/img/portfolio/moinhovakin.png" alt="..." />
+                                <img style="object-fit: cover;width: 300px; height: 300px;" src="assets/img/portfolio/moinhovakin.png" alt="..." />
                             </a>
                         </div>
                     </div>
@@ -212,7 +230,7 @@
                                 <div class="portfolio-hover" style="width: 300px; height: 300px; border-radius:20px;">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img src="assets/img/portfolio/moitrongkhongdoixung.png" alt="..." />
+                                <img style="object-fit: cover;width: 300px; height: 300px;" src="assets/img/portfolio/moitrongkhongdoixung.png" alt="..." />
                             </a>
                         </div>
                     </div>
@@ -223,7 +241,7 @@
                                 <div class="portfolio-hover" style="width: 300px; height: 300px; border-radius:20px;">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img src="assets/img/portfolio/moitronglunglang.png" alt="..." />
+                                <img style="object-fit: cover;width: 300px; height: 300px;" src="assets/img/portfolio/moitronglunglang.png" alt="..." />
                             </a>
                         </div>
                     </div>
@@ -234,7 +252,7 @@
                                 <div class="portfolio-hover" style="width: 300px; height: 300px; border-radius:20px;">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img  src="assets/img/portfolio/moitrongnoibat.png" alt="..." />
+                                <img style="object-fit: cover;width: 300px; height: 300px;" src="assets/img/portfolio/moitrongnoibat.png" alt="..." />
                             </a>
                         </div>
                     </div>
