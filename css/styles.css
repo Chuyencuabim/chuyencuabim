@@ -12868,7 +12868,22 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 }
 
-
+.phude {
+  text-align: center;
+  padding: 15px 22px;
+  border: 3px solid black;
+  border-radius: 15px;
+  font-size: 1.3em;
+  background-color: #f6abb6;
+  color: white;
+  width: 40%;
+  margin: auto;
+  margin-bottom: 30px;
+  font-family: "Roboto Condensed";
+  text-decoration: none;
+  font-weight: 700;
+  margin-top: 10%;
+}
 
 .pic {
   width: 100%;
