@@ -1,608 +1,216 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Chuyện Của Bim</title>
-        <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
-        <!-- Google fonts-->
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
 
-        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
 
-        <style >
-            .portfolio-item img{
-                object-fit: cover;width: 300px; height: 300px; border: 2px black solid; 
-            }
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
 
-            .para-content{
-                /*padding-top: 3%;*/
-                font-size: 20px;
-                width: 100%; 
-                /*margin: 2% 20% 0%;*/
-                text-align: justify;
-                margin: 0 auto;
-                text-justify: auto;
-                font-family: "Roboto Condensed";
-            }
-            .detail {
-                border-radius: 10px; 
-                background-color:#f6abb6;
-                padding: 5%;
-                border: 2px solid black;
-                text-align: center;
+    <!-- jQuery library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
 
-            }
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
 
-            .phude {
-                padding-top: 3%;
-                font-size: 1.5em;
-                width: 40%; 
-                /*margin: 2% 20% 0%;*/
-                text-align: center;
-                margin: 0 auto;
-                text-justify: auto;
-                font-family: "Roboto Condensed";
-                font-weight: 500;
-            }
-            .tieude {
-                text-align: center; 
-                padding: 1.5%; 
-                border: 2px solid black; 
-                border-radius: 10px;                      
-                background-color: #f6abb6; 
-                color: white;
-                width: 20%; 
-                margin: auto; 
-                font-size: 1.5em;
-                font-family: "Roboto Condensed";   
-            }
-            .title {
-                font-family: "Roboto Condensed";   
-                color: white;
-                font-weight: 700;
-            }
-            svg {
-                display: block;
-            }
-            a.portfolio-link{
-                text-align: center;
-            }
-            .portfolio-hover{
-                object-fit: cover;
-              
-                border-radius: 20px;
-                position: absolute;
-                margin-left: auto;
-                margin-right: auto;
-                left: 0;
-                right: 0;
-                text-align: center;
-                width: 300px !important ; height: 300px !important ; border-radius:20px !important ;
-            }
-            .room {
-               object-fit: cover;width: 300px; height: 300px; border: 2px black solid; 
-            }
-            .lis {
-                font-size: 1.5rem !important ;
-                font-family: "Roboto Condensed" !important ;
-                
-            }
-             @media screen and (max-width: 800px)  {
-                .logo {
-                font-size: 1.5rem;
-            }
-            .logolow {
-                font-size: 1.4rem;
-            }
-            .tieude {
-                font-size: 1.2rem;
-                width: 40%;
-               
-            }
-           .phude {
-                font-size: 1em;
-                text-align: justify;
-            }
-            .lis {
-                font-size: 1rem !important ;
-                font-family: "Roboto Condensed" !important ;
-                
-            }
-            .title {
-                    font-size: 1.3em;
-                }
-                .para-content {
-                    
-                    font-size: 1em;
-                }
-                .room {
-                    width: 250px !important ; height: 250px !important ;
-                    border: 2px black solid !important ; 
-                    object-fit: cover;
-                }
-                
-                .portfolio-hover{
-                object-fit: cover;
-              
-                border-radius: 20px;
-                position: absolute;
-                margin-left: auto;
-                margin-right: auto;
-                left: 0;
-                right: 0;
-                text-align: center;
-                width: 250px !important ; height: 250px !important ; border-radius:20px !important ;
-            }
-           }
-        </style>
-    </head>
+    <!-- Icon to use Font Awesome 5 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
 
-    <body id="page-top">
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav" style="background-color:  #f6abb6;">
+    <script src="css/sidebar.css"></script>
 
-            <div class="container">
-                <a href="home.html" style="text-decoration: none;"><div class="title logo"> CHUYỆN </div> <br/>
-                    <div class="title logolow" > CỦA BIM </div>  </a> 
+</head>
 
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    Menu
-                    <i class="fas fa-bars ms-1"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive" >
-                    <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0 lis"  >
-                        <li class="nav-item lis"><a class="nav-link lis" href="story.html" >Chuyện lạ</a></li>
-                        <li class="nav-item"><a class="nav-link lis" href="knowledge.html" >Kiến thức</a></li>
-                        <li class="nav-item"><a class="nav-link lis" href="confidential.html" >Tâm sự</a></li>
-                        <li class="nav-item"><a class="nav-link lis" href="#team" >Về chúng tôi</a></li>
+<body>
+    <div class="container-fluid p-0">
 
-                    </ul>
-                </div>
+        <div class="row" id="body-row">
+            <!-- Sidebar -->
+            <div id="sidebar-container" class="col-sm-2 sidebar-expanded d-none d-md-block ">
+                <ul class="list-group">
+                    <li
+                        class="list-group-item sidebar-separator-title text-muted d-flex align-items-center menu-collapsed">
+                        <img class="w-100" src="image/logo.png" alt="..." />
+                    </li>
+                    <!-- <a href="#" data-toggle="sidebar-colapse"
+                        class="list-group-item list-group-item-action d-flex align-items-center">
+                        <div class="d-flex w-100 justify-content-start align-items-center">
+                            <span id="collapse-icon" class="fa fa-2x mr-3"></span>
+                            <span id="collapse-text" class="menu-collapsed"></span>
+                        </div>
+                    </a> -->
+                    <a  class="list-group-item list-group-item-action flex-column align-items-start"> 
+                        <!-- <div class="d-flex w-100 justify-content-start align-items-center"> -->
+                            <span class="menu-collapsed">Giới thiệu dự án</span>
+                            <span class="submenu-icon ml-auto"></span>
+                        <!-- </div> -->
+                    </a>
+
+                    <a href="library.html" class=" list-group-item list-group-item-action flex-column align-items-start">
+                        <!-- <div class="d-flex w-100 justify-content-start align-items-center"> -->
+                            <span class="fa fa-user fa-fw mr-3"></span>
+                            <span class="menu-collapsed"  >Thư viện của Bim</span>
+                            <span class="submenu-icon ml-auto"></span>
+                        <!-- </div> -->
+                    </a>
+                    <a class=" list-group-item list-group-item-action flex-column align-items-start">
+                        <!-- <div class="d-flex w-100 justify-content-start align-items-center"> -->
+                            <span class="fa fa-user fa-fw mr-3"></span>
+                            <span class="menu-collapsed">Thủ thì thầm thì</span>
+                            <span class="submenu-icon ml-auto"></span>
+                        <!-- </div> -->
+                    </a>
+                    <a class=" list-group-item list-group-item-action flex-column align-items-start">
+                        <div class="d-flex w-100 justify-content-start align-items-center">
+                            <span class="fa fa-user fa-fw mr-3"></span>
+                            <span class="menu-collapsed">Podcast</span>
+                            <span class="submenu-icon ml-auto"></span>
+                        </div>
+                    </a>
+                    <a class=" list-group-item list-group-item-action flex-column align-items-start">
+                        <div class="d-flex w-100 justify-content-start align-items-center">
+                            <span class="fa fa-user fa-fw mr-3"></span>
+                            <span class="menu-collapsed">Ủng hộ</span>
+                            <span class="submenu-icon ml-auto"></span>
+                        </div>
+                    </a>
+
+
+
+
+                </ul>
             </div>
 
-        </nav>
+            <!-- MAIN -->
+            <div class="col-sm-10">
 
 
-        <section class="page-section bg-light" id="portfolio">
-            <div class="container">
-                <div class="text-center" style="margin-top:8%; ">
-                    <h4 class="text-uppercase title tieude">
-                        Phòng trưng bày hình dáng âm hộ</h4>
-                    <p class="phude"> Sự đa dạng về hình dáng, màu sắc, kích thước 
-                        chính là những điều <span style="color: #ff9999; font-weight: 700; "> đẹp đẽ và kỳ diệu </span>nhất khi nói về âm hộ. Hãy tự tin tỏa sáng bản sắc riêng của chính bạn.
-                    </p>
-                </div>
-                <div class="row">
-                    <div class="col-lg-4 col-sm-6 mb-4" >
-                        <!-- Portfolio item 1-->
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
-                                <div class="portfolio-hover" >
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="room" src="assets/img/portfolio/moidethay.png" alt="..." />
-                            </a>
-                            <!--                            <div class="portfolio-caption">
-                                                            <div class="portfolio-caption-heading">Threads</div>
-                                                            <div class="portfolio-caption-subheading text-muted">Illustration</div>
-                                                        </div>-->
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 mb-4">
-                        <!-- Portfolio item 2-->
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
-                                <div class="portfolio-hover" >
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="room" src="assets/img/portfolio/moibevamo.png" alt="..." />
-                            </a>
+
+                <div>
+                    <h4 class="phude" style="
+                      padding: 15px 22px;
+                      border: 3px solid black;
+                      border-radius: 15px;
+                      font-size: 1.3em;
+                      background-color: #f6abb6;
+                      color: white;
+                      width: 250px;
+                      text-transform: uppercase;
+                        margin: 20px 70px;
+                      text-decoration: none; "> Giới thiệu dự án</h4>
+                    <div class="row m-3">
+                        <div class="col-sm-7 p-5">
+                            <p> “Chuyện của Bim” là một dự án phi lợi nhuận, có chủ đề về bộ phận sinh dục nữ. Mục đích
+                                của dự án là giúp cho phụ nữ thấy một thế giới mới, nơi mà không có những lời phán xét
+                                về giá trị và vẻ đẹp của chúng ta. Một nơi giúp bạn nhìn thấy những sự thật và cả những
+                                áp đặt mà bấy lâu nay chẳng ai nói cho bạn biết. Bạn và tôi, những người phụ nữ, lần đầu
+                                tiên thật sự được biết và hiểu về bộ phận sinh dục của chúng mình. Thì ra âm đạo và âm
+                                hộ là hai bộ phận khác nhau, thì ra việc mình không cảm thấy đau khi quan hệ lần đầu là
+                                hoàn toàn bình thường, thì ra âm hộ lại có nhiều màu sắc đến vậy, à hóa ra cũng có nhiều
+                                người có câu chuyện và trải nghiệm giống mình.
+
+                                <br />Dự án này sẽ giúp cho bạn có cơ hội được nhìn thẳng vào bộ phận sinh dục của mình
+                                với một thái độ hoàn toàn khác đi. Không còn những cảm giác xấu hổ, ghét bỏ, hay ghê
+                                tởm… mà là sự thích thú, tò mò và bao dung. Hãy cùng “Chuyện của Bim” bắt đầu một hành
+                                trình thấu hiểu để yêu thương và trân trọng.
+                            </p>
 
                         </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 mb-4">
-                        <!-- Portfolio item 3-->
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="room" src="assets/img/portfolio/moiloncongvanh.png" alt="..." />
-                            </a>
-
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
-                        <!-- Portfolio item 4-->
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal4">
-                                <div class="portfolio-hover" >
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="room" src="assets/img/portfolio/moilonlunglang.png" alt="..." />
-                            </a>
-
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
-                        <!-- Portfolio item 5-->
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal5">
-                                <div class="portfolio-hover" >
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="room" src="assets/img/portfolio/moilonnoibat.png" alt="..." />
-                            </a>
-
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6" >
-                        <!-- Portfolio item 6-->
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal6">
-                                <div class="portfolio-hover" >
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="room" src="assets/img/portfolio/moinhovakin.png" alt="..." />
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <!-- Portfolio item 7-->
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal7">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="room" src="assets/img/portfolio/moitrongkhongdoixung.png" alt="..." />
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <!-- Portfolio item 8-->
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal8">
-                                <div class="portfolio-hover" >
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="room" src="assets/img/portfolio/moitronglunglang.png" alt="..." />
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <!-- Portfolio item 9-->
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal9">
-                                <div class="portfolio-hover" >
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="room" src="assets/img/portfolio/moitrongnoibat.png" alt="..." />
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!--         Team
-                <section class="page-section bg-light" id="team">
-                    <div class="container">
-                        <div class="text-center">
-                            <h2 class="section-heading text-uppercase">Our Team</h2>
-                            <h3 class="section-subheading text-muted"> Các thành viên</h3>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-4">
-                                <div class="team-member">
-                                    <img class="mx-auto rounded-circle" src="assets/img/team/1.jpg" alt="..." />
-                                    <h4>Name</h4>
-                                    <p class="text-muted">MSSV</p>
-                                    <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
-                                </div>
-                            </div>
-                            <div class="col-lg-4">
-                                <div class="team-member">
-                                    <img class="mx-auto rounded-circle" src="assets/img/team/2.jpg" alt="..." />
-                                    <h4>Name</h4>
-                                    <p class="text-muted">MSSV</p>
-                                    <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
-                                </div>
-                            </div>
-                            <div class="col-lg-4">
-                                <div class="team-member">
-                                    <img class="mx-auto rounded-circle" src="assets/img/team/3.jpg" alt="..." />
-                                    <h4>Name</h4>
-                                    <p class="text-muted">MSSV</p>
-                                    <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
-                                </div>
+                        <div class="col-sm-5">
+                            <img class="w-75 h-100" src="image/intro/avt.jpg" alt="..." />
+                            <div class="text-center">
+                                Ánh Ngọc
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-lg-8 mx-auto text-center"><p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p></div>
-                        </div>
                     </div>
-                </section>
-        -->
+                    <div class="row m-5">
+                        <div class="col-sm-6">
+                            <img class="w-75 h-100" src="image/intro/poster.png" alt="..." />
+                            <div class="text-center">
 
-        <footer class="footer py-4">
-            <div class="container">
-                <!--<div class="row align-items-center">-->
-                <a class="navbar-brand" href="home.html"> <div class="title"> TRỞ VỀ TRANG CHỦ </div> </a>
-                <!--                    <div class="col-lg-4 my-3 my-lg-0">
-                                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-                                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-                                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
-                                    </div>-->
-
-                <!--</div>-->
-            </div>
-        </footer>
-
-        <!-- Portfolio Modals-->
-        <!-- Portfolio item 1 modal popup-->
-        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-                <!--<div class="modal-content">-->
-                <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-                <div class="container">
-                    <div class="row" style="margin-top: 50px; padding-top: 100px;" >
-
-                        <div class="col-md-6"  >
-                            <img style="border-radius: 20px; border: 2px solid black;" class="img-fluid d-block mx-auto" src="assets/img/portfolio/moidethay.png" alt="..." />
-                        </div>
-                        <div class="col-md-6 " >
-                            <div class="detail" style="border: 10%; margin: 15%; ">
-                                <h2 class="text-uppercase title" >MÔI  ÂM ĐẠO DỄ THẤY</h2>
-                                <p class="para-content" style=""> 
-                                    Môi trong và môi ngoài thường có cùng kích thước. Môi trong lộ ra ngoài vì chúng nằm bên ngoài các nếp gấp bên ngoài; các nếp gấp bên ngoài nằm tự nhiên hoặc kéo về hai bên. 
-                                </p>
-                            </div>
-                        </div>
-
-
-                        <!--</div>-->
-                    </div>
-                </div>
-                <!--</div>-->
-            </div>
-        </div>
-        <!-- Portfolio item 2 modal popup-->
-        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-                <!--<div class="modal-content">-->
-                <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-                <div class="container">
-                    <div class="row" style="margin-top: 50px; padding-top: 100px;" >
-
-                        <div class="col-md-6"  >
-                            <img style="border-radius: 20px; border: 2px solid black;" class="img-fluid d-block mx-auto" src="assets/img/portfolio/moibevamo.png" alt="..." />
-                        </div>
-                        <div class="col-md-6" >
-                            <div class="detail" style="border: 10%; margin: 15%; ">
-                                <h2 class="text-uppercase title">MÔI ÂM HỘ BÉ VÀ MỞ </h2>
-                                <p class="para-content" style=""> Môi ngoài của bạn phẳng và áp lên xương mu, 
-                                    nhưng hơi tách ra về hai bên, làm lộ rõ môi âm hộ bên trong của bạn.</p>
-                            </div>
-                        </div>
-
-
-                        <!--</div>-->
-                    </div>
-                </div>
-                <!--</div>-->
-            </div>
-        </div>
-
-        <!-- Portfolio item 3 modal popup-->
-        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-                <!--<div class="modal-content">-->
-                <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-                <div class="container">
-                    <div class="row" style="margin-top: 50px; padding-top: 100px;" >
-
-                        <div class="col-md-6"  >
-                            <img style="border-radius: 20px; border: 2px solid black;" class="img-fluid d-block mx-auto" src="assets/img/portfolio/moiloncongvanh.png" alt="..." />
-                        </div>
-                        <div class="col-md-6" >
-                            <div class="detail" style="border: 10%; margin: 15%; ">
-                                <h2 class="text-uppercase title" >MÔI LỚN CONG VÒNG</h2>
-                                <p class="para-content" style=""> Đôi môi bên ngoài của bạn có một đường cong tròn gặp nhau ở phần cuối. 
-                                    Khi điều này xảy ra, nó thường để hở môi âm đạo bên trong. Chúng có thể nhô ra hoặc không nhô ra bên dưới âm hộ của bạn, đặc biệt là chúng có hình dạng như chiếc vòng móng ngựa.
-                                </p>
-                            </div>
-                        </div>
-
-
-                        <!--</div>-->
-                    </div>
-                </div>
-                <!--</div>-->
-            </div>
-        </div>
-        <!-- Portfolio item 4 modal popup-->
-        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-                <!--<div class="modal-content">-->
-                <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-                <div class="container">
-                    <div class="row" style="margin-top: 50px; padding-top: 100px;" >
-
-                        <div class="col-md-6"  >
-                            <img style="border-radius: 20px; border: 2px solid black;" class="img-fluid d-block mx-auto" src="assets/img/portfolio/moilonlunglang.png" alt="..." />
-                        </div>
-                        <div class="col-md-6 " >
-                            <div class="detail" style="border: 10%; margin: 15%; ">
-                                <h2 class="text-uppercase title" >MÔI LỚN LỦNG LẲNG</h2>
-                                <p class="para-content" style=""> Đây là một dạng của môi ngoài nổi bật. Cấu trúc da thường mỏng và lỏng lẻo cũng như các bên thường khá rộng. Các nếp gấp có thể lộ rõ từ quần lót của bạn. 
-                                    Điều này có thể giúp môi trong của bạn lộ ra nhiều hơn một chút.</p>
-                            </div>
-                        </div>
-
-
-                        <!--</div>-->
-                    </div>
-                </div>
-                <!--</div>-->
-            </div>
-        </div>
-        <!-- Portfolio item 5 modal popup-->
-        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-                <!--<div class="modal-content">-->
-                <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-                <div class="container">
-                    <div class="row" style="margin-top: 50px; padding-top: 100px;" >
-
-                        <div class="col-md-6"  >
-                            <img style="border-radius: 20px; border: 2px solid black;" class="img-fluid d-block mx-auto" src="assets/img/portfolio/moilonnoibat.png" alt="..." />
-                        </div>
-                        <div class="col-md-6" >
-                            <div class="detail" style="border: 10%; margin: 15%; ">
-                                <h2 class="text-uppercase title" >MÔI LỚN NỔI BẬT</h2>
-                                <p class="para-content" style=""> Môi lớn nổi bật thường nằm thấp hơn nhiều trên âm hộ của bạn. Cấu trúc da của môi lớn có thể dày và sưng húp hoặc mỏng và hơi lỏng lẻo - hoặc ở giữa hai trạng thái trên.
-                                </p>
-                            </div>
-                        </div>
-
-
-                        <!--</div>-->
-                    </div>
-                </div>
-                <!--</div>-->
-            </div>
-        </div>
-        <!-- Portfolio item 6 modal popup-->
-        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-                <!--<div class="modal-content">-->
-                <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-                <div class="container">
-                    <div class="row" style="margin-top: 50px; padding-top: 100px;" >
-
-                        <div class="col-md-6"  >
-                            <img style="border-radius: 20px; border: 2px solid black;" class="img-fluid d-block mx-auto" src="assets/img/portfolio/moinhovakin.png" alt="..." />
-                        </div>
-                        <div class="col-md-6 " >
-                            <div class="detail" style="border: 10%; margin: 15%; ">
-                                <h2 class="text-uppercase title" >MÔI NHỎ VÀ KÍN</h2>
-                                <p class="para-content" style=""> Trong trường hợp này, môi ngoài có thể che phủ hoàn toàn môi trong của bạn. Mặc dù loại âm hộ này thường thấy trong các sản phẩm giải trí dành cho người lớn, nhưng nhìn chung nó thực sự là loại âm hộ ít phổ biến nhất.
-                                </p>
-                            </div>
-                        </div>
-
-
-                        <!--</div>-->
-                    </div>
-                </div>
-                <!--</div>-->
-            </div>
-        </div>
-
-        <!-- Portfolio item 6 modal popup-->
-        <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-                <!--<div class="modal-content">-->
-                <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-                <div class="container">
-                    <div class="row" style="margin-top: 50px; padding-top: 100px;" >
-
-                        <div class="col-md-6"  >
-                            <img style="border-radius: 20px; border: 2px solid black;" class="img-fluid d-block mx-auto" src="assets/img/portfolio/moitrongkhongdoixung.png" alt="..." />
-                        </div>
-                        <div class="col-md-6" >
-                            <div class="detail" style="border: 10%; margin: 15%; ">
-                                <h2 class="text-uppercase title" >MÔI TRONG KHÔNG 
-                                    ĐỐI XỨNG
-                                </h2>
-                                <p class="para-content" style=""> Ngay cả khi môi lớn đối xứng, thì môi nhỏ có thể không đối xứng. "Đôi khi các phần khác nhau của môi âm hộ có thể có kích thước khác nhau, và điều đó không sao cả".
-                                </p>
-                            </div>
-                        </div>
-
-
-                        <!--</div>-->
-                    </div>
-                </div>
-                <!--</div>-->
-            </div>
-        </div>
-        <!-- Portfolio item 6 modal popup-->
-        <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-                <!--<div class="modal-content">-->
-                <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-                <div class="container">
-                    <div class="row" style="margin-top: 50px; padding-top: 100px;" >
-
-                        <div class="col-md-6"  >
-                            <img style="border-radius: 20px; border: 2px solid black;" class="img-fluid d-block mx-auto" src="assets/img/portfolio/moitronglunglang.png" alt="..." />
-                        </div>
-                        <div class="col-md-6" >
-                            <div class="detail" style="border: 10%; margin: 15%; ">
-                                <h2 class="text-uppercase title">MÔI TRONG LỦNG LẲNG
-                                </h2>
-                                <p class="para-content" style=""> Đây là một dạng của môi trong nổi bật. Chúng có thể lủng lẳng khoảng 2cm (hoặc hơn!) lộ ra ngoài môi lớn của bạn. Chúng thậm chí có thể lộ ra bên ngoài quần lót của bạn.
-                                </p>
                             </div>
 
                         </div>
+                        <div class="col-sm-6">
+                            <p>Từ một nghiên cứu cho tới một dự án (SIZE FONT: 30)
+                                Vào tháng 7 năm 2022, Ánh Ngọc (cùng với các đồng sự - Mai Hoa, Phương Linh) đã thực
+                                hiện một dự án nghiên cứu lấy đề tài "Định kiến giới về bộ phận sinh dục nữ trong diễn
+                                ngôn quảng cáo trên facebook và website dưới góc độ truyền thông ". Bài nghiên cứu sau
+                                đó đã đạt giải ba trong cuộc thi nghiên cứu RESFES 2022 được tổ chức bởi FPT Education ở
+                                tiểu ban Truyền thông đa phương tiện. Nếu bạn quan tâm, có thể liên hệ trực tiếp với
+                                chúng tôi để đọc báo cáo nghiên cứu hoàn chỉnh.
+                                <br />
+                                Những kết quả của nghiên cứu phản ánh một thực tại khi những định kiến giới đã tạo ra
+                                những thông tin sai lệch và những lầm tưởng về bộ phận sinh dục nữ . Kết quả của thực
+                                trạng này đã dẫn đến sự thiếu hiểu biết của phụ nữ về cơ thể của chính họ. Đặc biệt,
+                                những định kiến giới này cũng kích thích sự bất an của phụ nữ dành cho bộ phận sinh dục
+                                của họ. Nỗi ám ảnh về ngoại hình của bộ phận sinh dục và khả năng tình dục cũng ảnh
+                                hưởng một cách tiêu cực tới sự tự tin và lòng tự trọng thân thể của phụ nữ. Hậu quả của
+                                những tâm lý này đó là phụ nữ bắt đầu có xu hướng tìm cách giải quyết những nỗi lo lắng
+                                về bộ phận sinh dục của họ, nhằm mục đích được yêu thương và công nhận, đặc biệt là bởi
+                                nam giới.
+                                <br />
+                                Dựa trên những kết quả nghiên cứu, chiến dịch truyền thông “Chuyện của Bim” được thành
+                                lập với mục đich tập trung vào việc giáo dục và nâng cao hiểu biết của phụ nữ về sự đa
+                                dạng của cơ thể từ đó thúc đẩy tinh thần tự tin và yêu bản thân cả về mặt nhận thức và
+                                thái độ.
+                            </p>
 
+                        </div>
+                    </div>
+                    <div class="row m-3">
+                        <div class="col-sm-7 p-5">
+                            <p> Hãy bắt đầu hành trình khám phá chính bản thân mình (SIZE FONT: 30)
+                                Người ta, những người có quyền được nói, vẫn luôn định hình và ví von chúng ta trong một
+                                khuôn mẫu nhất định. Điều đó làm chúng mình tin rằng có một vẻ đẹp tiêu chuẩn nào đó cho
+                                ngoại hình của chúng mình (hình minh họa): Chúng mình cần phải hồng hào, gọn gàng và
+                                thơm
+                                như hoa. Nhưng mà cả bạn và mình đều hiểu rằng, chúng ta không phải và không bao giờ là
+                                sản
+                                phẩm của truyền thông hay thương mại.
+                                <br>
+                                Sự riêng biệt và độc nhất của mỗi cá thể chính là bản chất của tự nhiên mà không ai có
+                                thể
+                                phủ nhận được. Cũng giống như mặt, cánh tay, cẳng chân… thì bộ phận sinh dục của phụ nữ
+                                chúng mình cũng đa dạng và muôn màu muôn vẻ như thế. Vậy nên, những cảm xúc tiêu cực và
+                                tồi
+                                tệ mà bạn đang phải trải qua, dường như chúng chỉ bắt nguồn từ việc bạn chưa hiểu hết rõ
+                                về
+                                cơ thể của mình.
+                                <br>
+                                Những tò mò, thắc mắc, và lo âu về những vấn đề mà ai cũng coi là tế nhị nên cũng chẳng
+                                có
+                                mấy ai dám nói. Tệ hơn nữa là những điều này cũng làm cho bạn càng thêm mờ mịt về bản
+                                thân.
+                                Và đó chính là lý do tại sao mình lại ở đây cùng bạn để bắt đầu một hành trình khám phá
+                                mới
+                                lạ và kỳ diệu mà trước đây bạn chưa bao giờ được trải nghiệm
 
-                        <!--</div>-->
+                            </p>
+
+                        </div>
+
+                        <div class="col-sm-5">
+                            <img class="w-75 h-100" src="image/intro/picture.png" alt="..." />
+                        </div>
                     </div>
                 </div>
-                <!--</div>-->
-            </div>
-        </div>
-        <!-- Portfolio item 6 modal popup-->
-        <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-                <!--<div class="modal-content">-->
-                <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-                <div class="container">
-                    <div class="row" style="margin-top: 50px; padding-top: 100px;" >
-
-                        <div class="col-md-6"  >
-                            <img style="border-radius: 20px; border: 2px solid black;" class="img-fluid d-block mx-auto" src="assets/img/portfolio/moitrongnoibat.png" alt="..." />
-                        </div>
-                        <div class="col-md-6" >
-                            <div class="detail" style="border: 10%; margin: 15%; ">
-                                <h2 class="text-uppercase title">MÔI TRONG NỔI BẬT</h2>
-                                <p class="para-content" style=""> Thông thường, môi trong sẽ dài hơn và nhô ra khỏi môi lớn. Sự khác biệt về độ dài này có thể nhỏ hơn, với môi trong chỉ vừa đủ ló ra ngoài, hoặc rõ ràng hơn.
-                                </p>
-                            </div>
-                        </div>
 
 
-                        <!--</div>-->
-                    </div>
-                </div>
-                <!--</div>-->
-            </div>
-        </div>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <!-- * *                               SB Forms JS                               * *-->
-        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
-    </body>
+
+            </div><!-- Main Col END -->
+
+        </div><!-- body-row END -->
+
+
+    </div><!-- container -->
+
+
+    <script src="js/sidebar.js"></script>
+</body>
+
 </html>
-
